@@ -7,6 +7,7 @@ import com.imnstudios.newsapp.network.RetrofitInstance
 class NewsRepository(
     private val db: ArticleDatabase
 ) {
+
     suspend fun getBreakingNews(countryCode: String, pageNumber: Int) =
         RetrofitInstance.api.getBreakingNews(countryCode, pageNumber)
 

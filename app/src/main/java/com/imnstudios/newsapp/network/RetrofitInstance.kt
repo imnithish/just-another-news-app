@@ -1,4 +1,4 @@
-package com.imnstudios.newsapp.api
+package com.imnstudios.newsapp.network
 
 import com.imnstudios.newsapp.util.Constants.Companion.BASE_URL
 import okhttp3.OkHttpClient

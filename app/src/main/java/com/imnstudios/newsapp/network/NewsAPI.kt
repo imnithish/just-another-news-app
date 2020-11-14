@@ -1,6 +1,6 @@
-package com.imnstudios.newsapp.api
+package com.imnstudios.newsapp.network
 
-import com.imnstudios.newsapp.data.NewsResponse
+import com.imnstudios.newsapp.data.models.NewsResponse
 import com.imnstudios.newsapp.util.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET

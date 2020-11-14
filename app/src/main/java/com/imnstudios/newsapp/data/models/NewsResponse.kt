@@ -1,4 +1,4 @@
-package com.imnstudios.newsapp.data
+package com.imnstudios.newsapp.data.models
 
 data class NewsResponse(
     val articles: List<Article>,

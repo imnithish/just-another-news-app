@@ -1,7 +1,6 @@
 package com.imnstudios.newsapp.ui.fragments
 
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.AbsListView
 import android.widget.Toast
@@ -14,9 +13,7 @@ import com.imnstudios.newsapp.R
 import com.imnstudios.newsapp.adapters.NewsAdapter
 import com.imnstudios.newsapp.ui.MainActivity
 import com.imnstudios.newsapp.ui.viewmodels.NewsViewModel
-import com.imnstudios.newsapp.util.Constants
 import com.imnstudios.newsapp.util.Constants.Companion.QUERY_PAGE_SIZE
-import com.imnstudios.newsapp.util.Constants.Companion.TAG
 import com.imnstudios.newsapp.util.Resource
 import kotlinx.android.synthetic.main.fragment_breaking_news.*
 import kotlinx.android.synthetic.main.fragment_search_news.*
